@@ -11,7 +11,7 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.AfterSuite;
 
 public class Anotations {
-  //kkkkkkkkkk
+  //mmmmmmmm
   @Test
   public void f() {
   }
