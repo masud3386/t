@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<parameter name="url" value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"/>
+<parameter name="uname" value="Admin"/>
+<parameter name="pas" value="admin123">
+
+</parameter>
+
+
+
+
+  <test name="Login Test">
+    <classes>
+      <class name="com.smart.parameters.OrangeHRMTest">
+      <methods>
+      <include name="launchapplication"/>
+      <include name="validatelogin"/>
+      <include name="navigatetomyinfor"/>
+     
+      </methods>
+      </class>
+    </classes>
+  </test> 
+  
+  <test name="verifyMyinfo">
+  
+    <classes>
+      <class name="com.smart.parameters.OrangeHRMTest">
+      <methods>
+      <include name="launchapplication"/>
+       <include name="navigatetomyinfor"/>
+       <include name="myinfo"/>
+     
+      </methods>
+      </class>
+    </classes>
+  </test> 
+  
+  
+</suite> 
+

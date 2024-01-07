@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "TestSuiteOne">
+	<test name="SmokeTest">
+		<classes>
+			<class name = "com.qa.testNg.ClassOne"/>
+			<include name="facebookTest"/>
+		    <include name="googleTest"/>
+			
+			
+		</classes>
+	</test>
+	<test name="OrangeTest">
+		<classes>
+			<class name ="com.qa.testNg.ClassTwo"/>
+		<!--  -->	<include name="testOrange"/> -->
+			
+			
+		</classes>
+	</test>
+</suite>
