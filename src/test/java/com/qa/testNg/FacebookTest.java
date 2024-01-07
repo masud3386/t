@@ -12,6 +12,7 @@ import org.testng.asserts.SoftAssert;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class FacebookTest {
+	// I am testing the code
 	@Test
 	public void facebookTest() throws InterruptedException {
 		WebDriverManager.chromedriver().setup();
